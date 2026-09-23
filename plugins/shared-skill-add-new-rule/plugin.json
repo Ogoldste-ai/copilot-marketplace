@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-add-new-rule",
+  "description": "Create or update a repository rule under ~/.copilot/rules/ when the user asks for a new rule",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

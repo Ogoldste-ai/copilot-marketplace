@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-teams-mcp",
+  "description": "Triage Microsoft Teams chats: read incoming messages, get alerts, and draft replies through a local MCP server",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "ogoldste@nuvoton.com"
+  },
+  "skills": "skills"
+}

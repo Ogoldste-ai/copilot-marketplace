@@ -1,0 +1,12 @@
+id: request-id
+title: Request a new skill
+requester: team-name
+owner: marketplace-maintainer
+summary: Short description of the problem the skill should solve.
+trigger_phrase: example trigger
+target_path: plugins/example-skill/skills/example-skill/SKILL.md
+expected_permissions:
+  network: false
+  filesystem: read-only
+review_required: true
+status: draft

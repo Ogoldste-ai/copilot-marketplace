@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-ssh-create-key",
+  "description": "Generate a new SSH key after showing encryption-type options and suggesting a user@host comment",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

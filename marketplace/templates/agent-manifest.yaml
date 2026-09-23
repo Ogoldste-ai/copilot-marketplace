@@ -1,0 +1,16 @@
+id: example-agent
+name: Example Agent
+type: agent
+trigger: example trigger
+description: Short description of what the item does.
+owner: team-name
+version: 1.0.0
+status: draft
+source: plugins/example-agent-plugin/agents/example-agent.agent.md
+permissions:
+  network: false
+  filesystem: read-only
+review:
+  required: true
+  approvers:
+    - marketplace-maintainer

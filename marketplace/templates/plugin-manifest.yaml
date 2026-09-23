@@ -1,0 +1,16 @@
+id: example-skill
+name: Example Skill
+type: skill
+trigger: example trigger
+description: Short description of what the item does.
+owner: team-name
+version: 1.0.0
+status: draft
+source: plugins/example-skill/skills/example-skill/SKILL.md
+permissions:
+  network: false
+  filesystem: read-only
+review:
+  required: true
+  approvers:
+    - marketplace-maintainer

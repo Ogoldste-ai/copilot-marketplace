@@ -1,0 +1,109 @@
+{
+  "name": "nuvoton-copilot-marketplace",
+  "owner": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "metadata": {
+    "description": "Nuvoton Copilot plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "shared-skill-gitlab-mcp",
+      "description": "Query GitLab merge requests and issues through a local MCP server",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-gitlab-mcp"
+    },
+    {
+      "name": "shared-skill-outlook-mcp",
+      "description": "Read, search, draft and send Outlook desktop mail through a local MCP server",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-outlook-mcp"
+    },
+    {
+      "name": "shared-skill-teams-mcp",
+      "description": "Triage Microsoft Teams chats: read incoming messages, get alerts, and draft replies through a local MCP server",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-teams-mcp"
+    },
+    {
+      "name": "shared-skill-pdftomd-rag",
+      "description": "Query hardware specification documents indexed in pdftomd RAG through MCP tools",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-pdftomd-rag"
+    },
+    {
+      "name": "shared-skill-add-new-skill",
+      "description": "Draft and normalize a new skill into the repository's standard skill template",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-add-new-skill"
+    },
+    {
+      "name": "shared-skill-add-new-rule",
+      "description": "Create or update a repository rule under ~/.copilot/rules/ when the user asks for a new rule",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-add-new-rule"
+    },
+    {
+      "name": "local-skill-marketplace-update",
+      "description": "Update a private marketplace plugin from an existing skill",
+      "version": "1.0.0",
+      "source": "plugins/local-skill-marketplace-update"
+    },
+    {
+      "name": "shared-skill-marketplace-update-all",
+      "description": "Sync marketplace skills and plugin packages",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-marketplace-update-all"
+    },
+    {
+      "name": "shared-skill-git-push",
+      "description": "Commit selected changes and push the branch safely",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-git-push"
+    },
+    {
+      "name": "shared-skill-git-pull",
+      "description": "Pull from a chosen remote and branch after showing remotes, branches, and a preview of the result",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-git-pull"
+    },
+    {
+      "name": "shared-skill-git-merge",
+      "description": "Merge a chosen source branch into the current branch after showing all available branches and a preview",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-git-merge"
+    },
+    {
+      "name": "shared-skill-ssh-create-key",
+      "description": "Generate a new SSH key after showing encryption-type options and suggesting a user@host comment",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-ssh-create-key"
+    },
+    {
+      "name": "shared-skill-ssh-connect-to-machine",
+      "description": "Connect to a machine with a chosen key, prompt for the password only if needed, then save the connection to the SSH config",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-ssh-connect-to-machine"
+    },
+    {
+      "name": "shared-skill-ssh-command",
+      "description": "Run a command on a specific server over SSH and interpret the result, separating SSH transport failures from remote command failures",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-ssh-command"
+    },
+    {
+      "name": "local-agent-script-pipeline",
+      "description": "Six-agent pipeline for bash script development: a manager orchestrates review, planning, coding, testing, and remote execution",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline"
+    },
+    {
+      "name": "shared-agent-veloce-operator",
+      "description": "Agent that drives the Tavor Veloce emulator over SSH: connect to the right CE machine, then run emulation, chip control, HW trace, memory download, and JTAG/OpenOCD commands",
+      "version": "1.0.0",
+      "source": "plugins/shared-agent-veloce-operator"
+    }
+  ]
+}

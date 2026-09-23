@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-git-merge",
+  "description": "Merge a chosen source branch into the current branch after showing all available branches and a preview",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

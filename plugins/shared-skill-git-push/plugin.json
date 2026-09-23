@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-git-push",
+  "description": "Commit selected changes and push the branch safely",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

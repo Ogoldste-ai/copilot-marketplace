@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "marketplace": {
+    "name": "Copilot Marketplace",
+    "owner": "Oren Goldstein",
+    "source": "plugins/"
+  },
+  "items": [
+    {
+      "id": "pipeline-manager",
+      "name": "Pipeline manager",
+      "trigger": "process script",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline/agents/pipeline-manager.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "script-reviewer",
+      "name": "Script reviewer",
+      "trigger": "review script",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline/agents/script-reviewer.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "script-planner",
+      "name": "Script planner",
+      "trigger": "plan script",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline/agents/script-planner.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "script-coder",
+      "name": "Script coder",
+      "trigger": "code script",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline/agents/script-coder.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "script-tester",
+      "name": "Script tester",
+      "trigger": "test script",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline/agents/script-tester.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "script-runner",
+      "name": "Script runner",
+      "trigger": "run script",
+      "version": "1.0.0",
+      "source": "plugins/local-agent-script-pipeline/agents/script-runner.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "veloce-operator",
+      "name": "Veloce operator",
+      "trigger": "veloce",
+      "version": "1.0.0",
+      "source": "plugins/shared-agent-veloce-operator/agents/veloce-operator.agent.md",
+      "type": "agent",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    }
+  ]
+}

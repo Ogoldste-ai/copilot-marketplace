@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-ssh-connect-to-machine",
+  "description": "Connect to a machine with a chosen key, prompt for the password only if needed, then save the connection to the SSH config",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

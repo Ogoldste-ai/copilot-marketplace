@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-marketplace-update-all",
+  "description": "Sync marketplace skills and plugin packages",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-ssh-command",
+  "description": "Run a command on a specific server over SSH and interpret the result, separating SSH transport failures from remote command failures",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

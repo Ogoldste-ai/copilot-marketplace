@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "marketplace": {
+    "name": "Copilot Marketplace",
+    "owner": "Oren Goldstein",
+    "source": "plugins/"
+  },
+  "items": [
+    {
+      "id": "shared-skill-gitlab-mcp",
+      "name": "GitLab MCP",
+      "trigger": "gitlab mcp",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-gitlab-mcp/skills/shared-skill-gitlab-mcp/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-outlook-mcp",
+      "name": "Outlook MCP",
+      "trigger": "outlook mcp",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-outlook-mcp/skills/shared-skill-outlook-mcp/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-teams-mcp",
+      "name": "Teams MCP",
+      "trigger": "teams mcp",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-teams-mcp/skills/shared-skill-teams-mcp/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-pdftomd-rag",
+      "name": "pdftomd RAG query",
+      "trigger": "pdftomd rag",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-pdftomd-rag/skills/shared-skill-pdftomd-rag/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Vlad Levyatov"
+    },
+    {
+      "id": "shared-skill-add-new-skill",
+      "name": "Adding a common new skill",
+      "trigger": "add skill",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-add-new-skill/skills/shared-skill-add-new-skill/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-add-new-rule",
+      "name": "Adding a common new rule",
+      "trigger": "add new rule",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-add-new-rule/skills/shared-skill-add-new-rule/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "local-skill-marketplace-update",
+      "name": "Private marketplace update",
+      "trigger": "private marketplace update",
+      "version": "1.0.0",
+      "source": "plugins/local-skill-marketplace-update/skills/local-skill-marketplace-update/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-marketplace-update-all",
+      "name": "Update marketplace skills",
+      "trigger": "update marketplace",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-marketplace-update-all/skills/shared-skill-marketplace-update-all/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-git-push",
+      "name": "Git push",
+      "trigger": "git push",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-git-push/skills/shared-skill-git-push/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-git-pull",
+      "name": "Git pull",
+      "trigger": "git pull",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-git-pull/skills/shared-skill-git-pull/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-git-merge",
+      "name": "Git merge",
+      "trigger": "git merge",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-git-merge/skills/shared-skill-git-merge/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-ssh-create-key",
+      "name": "Create SSH key",
+      "trigger": "create ssh key",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-ssh-create-key/skills/shared-skill-ssh-create-key/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-ssh-connect-to-machine",
+      "name": "Connect to machine over SSH",
+      "trigger": "connect to machine",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-ssh-connect-to-machine/skills/shared-skill-ssh-connect-to-machine/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "shared-skill-ssh-command",
+      "name": "Run a command over SSH",
+      "trigger": "ssh command",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-ssh-command/skills/shared-skill-ssh-command/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    }
+  ]
+}

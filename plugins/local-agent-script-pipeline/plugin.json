@@ -1,0 +1,10 @@
+{
+  "name": "local-agent-script-pipeline",
+  "description": "Six-agent pipeline for bash script development: a manager orchestrates review, planning, coding, testing, and remote execution",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "agents": "agents"
+}

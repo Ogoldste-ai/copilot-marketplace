@@ -1,0 +1,12 @@
+id: request-id
+title: Request a new agent
+requester: team-name
+owner: marketplace-maintainer
+summary: Short description of the problem the agent should solve.
+trigger_phrase: example trigger
+target_path: plugins/example-agent-plugin/agents/example-agent.agent.md
+expected_permissions:
+  network: false
+  filesystem: read-only
+review_required: true
+status: draft

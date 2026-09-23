@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-pdftomd-rag",
+  "description": "Query hardware specification documents indexed in pdftomd RAG through MCP tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vlad Levyatov",
+    "email": "vlad.levyatov@nuvoton.com"
+  },
+  "skills": "skills"
+}

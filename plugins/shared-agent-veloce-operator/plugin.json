@@ -1,0 +1,10 @@
+{
+  "name": "shared-agent-veloce-operator",
+  "description": "Agent that drives the Tavor Veloce emulator over SSH: connect to the right CE machine, then run emulation, chip control, HW trace, memory download, and JTAG/OpenOCD commands",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "agents": "agents"
+}

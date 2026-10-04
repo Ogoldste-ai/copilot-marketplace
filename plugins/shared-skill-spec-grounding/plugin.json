@@ -1,0 +1,10 @@
+{
+  "name": "shared-skill-spec-grounding",
+  "description": "Ground hardware, register, protocol, firmware, and Caliptra claims in authoritative specifications, separating spec facts from repository facts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

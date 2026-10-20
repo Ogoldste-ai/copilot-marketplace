@@ -34,6 +34,12 @@
       "source": "plugins/shared-skill-pdftomd-rag"
     },
     {
+      "name": "shared-skill-spec-grounding",
+      "description": "Ground hardware, register, protocol, firmware, and Caliptra claims in authoritative specifications, separating spec facts from repository facts",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-spec-grounding"
+    },
+    {
       "name": "shared-skill-add-new-skill",
       "description": "Draft and normalize a new skill into the repository's standard skill template",
       "version": "1.0.0",

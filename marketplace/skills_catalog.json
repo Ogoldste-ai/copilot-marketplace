@@ -47,6 +47,16 @@
       "owner": "Vlad Levyatov"
     },
     {
+      "id": "shared-skill-spec-grounding",
+      "name": "Spec Grounding",
+      "trigger": "spec grounding",
+      "version": "1.0.0",
+      "source": "plugins/shared-skill-spec-grounding/skills/shared-skill-spec-grounding/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
       "id": "shared-skill-add-new-skill",
       "name": "Adding a common new skill",
       "trigger": "add skill",

@@ -87,6 +87,26 @@
       "owner": "Oren Goldstein"
     },
     {
+      "id": "local-building-bmc-modules",
+      "name": "Build BMC modules",
+      "trigger": "compile a BMC module",
+      "version": "1.0.0",
+      "source": "plugins/local-building-bmc-modules/skills/local-building-bmc-modules/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
+      "id": "local-clearing-bmc-module-artifacts",
+      "name": "Clear BMC module artifacts",
+      "trigger": "clean a BMC solution",
+      "version": "1.0.0",
+      "source": "plugins/local-clearing-bmc-module-artifacts/skills/local-clearing-bmc-module-artifacts/SKILL.md",
+      "type": "skill",
+      "status": "published",
+      "owner": "Oren Goldstein"
+    },
+    {
       "id": "shared-skill-marketplace-update-all",
       "name": "Update marketplace skills",
       "trigger": "update marketplace",

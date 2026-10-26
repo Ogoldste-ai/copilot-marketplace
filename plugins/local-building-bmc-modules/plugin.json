@@ -1,0 +1,10 @@
+{
+  "name": "local-building-bmc-modules",
+  "description": "Build one ec_accurev_git BMC module with a supported solution configuration",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

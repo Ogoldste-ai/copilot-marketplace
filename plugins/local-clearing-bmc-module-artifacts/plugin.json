@@ -1,0 +1,10 @@
+{
+  "name": "local-clearing-bmc-module-artifacts",
+  "description": "Clear one ec_accurev_git BMC module's outputs and Visual Studio cache without rebuilding",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oren Goldstein",
+    "email": "oren.goldstein@nuvoton.com"
+  },
+  "skills": "skills"
+}

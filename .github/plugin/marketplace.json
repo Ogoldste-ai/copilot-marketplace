@@ -58,6 +58,18 @@
       "source": "plugins/local-skill-marketplace-update"
     },
     {
+      "name": "local-building-bmc-modules",
+      "description": "Build one ec_accurev_git BMC module with a supported solution configuration",
+      "version": "1.0.0",
+      "source": "plugins/local-building-bmc-modules"
+    },
+    {
+      "name": "local-clearing-bmc-module-artifacts",
+      "description": "Clear one ec_accurev_git BMC module's outputs and Visual Studio cache without rebuilding",
+      "version": "1.0.0",
+      "source": "plugins/local-clearing-bmc-module-artifacts"
+    },
+    {
       "name": "shared-skill-marketplace-update-all",
       "description": "Sync marketplace skills and plugin packages",
       "version": "1.0.0",

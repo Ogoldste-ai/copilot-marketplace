@@ -11,7 +11,9 @@ Trigger phrase: "compile a BMC module"
 
 Compile one `BMC\Modules\<module>` solution through the repository's
 `BMC\.vscode\BmcModuleTask.ps1`, not by calling MSBuild directly. This
-builds the projects selected by that solution configuration; it does not
+runs MSBuild `Clean` then `Rebuild` (not an incremental `Build`; the
+core pre-build step deletes `objs.txt`, so an incremental build fails at link)
+on the projects selected by that solution configuration; it does not
 run tests.
 
 ## Assistant workflow

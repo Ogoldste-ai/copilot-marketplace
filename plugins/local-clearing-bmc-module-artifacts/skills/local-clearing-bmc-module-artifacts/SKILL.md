@@ -21,7 +21,7 @@ remove shared outputs outside the module.
    which module if unspecified. Do not substitute `CleanAllModules`
    (cleans and rebuilds) or `ClearAllArtifacts` (affects every module).
 2. Read `Clear-ModuleArtifacts` in
-   `BMC\.vscode\BmcModuleUtilities.ps1` before running it. Enumerate
+   `BmcModuleUtilities_clean.ps1` (in this skill's folder) before running it. Enumerate
    the **existing** paths it will remove: `host\Debug`,
    `host\Release`, each `core_*\Debug`, `core_*\Release`,
    `core_*\objs.txt`/`OBJS.txt`, module-root `objs.txt`/`OBJS.txt`,
